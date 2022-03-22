@@ -11,9 +11,12 @@
 		1E339D8727E9446D00DCED6D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E339D8627E9446D00DCED6D /* Tweet.swift */; };
 		1E339D8B27E9448700DCED6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E339D8A27E9448700DCED6D /* User.swift */; };
 		1E339D8D27E9450300DCED6D /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E339D8C27E9450300DCED6D /* UserDefaultsManager.swift */; };
+		1E800F1027EA0E2F000ED681 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E800F0F27EA0E2F000ED681 /* FeedViewController.swift */; };
+		1E800F1227EA0E39000ED681 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E800F1127EA0E39000ED681 /* FeedPresenter.swift */; };
+		1E800F1527EA1024000ED681 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E800F1427EA1024000ED681 /* TabBarItem.swift */; };
 		1E9EA50C27E8C1D300273904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA50B27E8C1D300273904 /* AppDelegate.swift */; };
 		1E9EA50E27E8C1D300273904 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA50D27E8C1D300273904 /* SceneDelegate.swift */; };
-		1E9EA51027E8C1D300273904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA50F27E8C1D300273904 /* ViewController.swift */; };
+		1E9EA51027E8C1D300273904 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA50F27E8C1D300273904 /* TabBarViewController.swift */; };
 		1E9EA51527E8C1D400273904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9EA51427E8C1D400273904 /* Assets.xcassets */; };
 		1E9EA51827E8C1D400273904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9EA51627E8C1D400273904 /* LaunchScreen.storyboard */; };
 		1E9EA52327E8C1D500273904 /* TweetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA52227E8C1D500273904 /* TweetTests.swift */; };
@@ -43,10 +46,13 @@
 		1E339D8627E9446D00DCED6D /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		1E339D8A27E9448700DCED6D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1E339D8C27E9450300DCED6D /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		1E800F0F27EA0E2F000ED681 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1E800F1127EA0E39000ED681 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		1E800F1427EA1024000ED681 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		1E9EA50827E8C1D300273904 /* Tweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9EA50B27E8C1D300273904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E9EA50D27E8C1D300273904 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E9EA50F27E8C1D300273904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E9EA50F27E8C1D300273904 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1E9EA51427E8C1D400273904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E9EA51727E8C1D400273904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E9EA51927E8C1D400273904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,7 +101,8 @@
 		1E339D8927E9447A00DCED6D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				1E9EA50F27E8C1D300273904 /* ViewController.swift */,
+				1E800F1627EA1029000ED681 /* TabBar */,
+				1E800F1327EA0E3E000ED681 /* Feed */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -106,6 +113,24 @@
 				1E339D8C27E9450300DCED6D /* UserDefaultsManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		1E800F1327EA0E3E000ED681 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				1E800F0F27EA0E2F000ED681 /* FeedViewController.swift */,
+				1E800F1127EA0E39000ED681 /* FeedPresenter.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		1E800F1627EA1029000ED681 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1E800F1427EA1024000ED681 /* TabBarItem.swift */,
+				1E9EA50F27E8C1D300273904 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		1E9EA4FF27E8C1D300273904 = {
@@ -319,12 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E9EA51027E8C1D300273904 /* ViewController.swift in Sources */,
+				1E9EA51027E8C1D300273904 /* TabBarViewController.swift in Sources */,
 				1E9EA50C27E8C1D300273904 /* AppDelegate.swift in Sources */,
+				1E800F1227EA0E39000ED681 /* FeedPresenter.swift in Sources */,
+				1E800F1527EA1024000ED681 /* TabBarItem.swift in Sources */,
 				1E339D8D27E9450300DCED6D /* UserDefaultsManager.swift in Sources */,
 				1E9EA50E27E8C1D300273904 /* SceneDelegate.swift in Sources */,
 				1E339D8B27E9448700DCED6D /* User.swift in Sources */,
 				1E339D8727E9446D00DCED6D /* Tweet.swift in Sources */,
+				1E800F1027EA0E2F000ED681 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
