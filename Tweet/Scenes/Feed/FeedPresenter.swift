@@ -29,7 +29,15 @@ extension FeedPresenter: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(
+            withIdentifier: FeedTableViewCell.identifier,
+            for: indexPath
+        ) as? FeedTableViewCell else {
+            return UITableViewCell()
+        }
+        let tweet = Tweet(user: User.shared, contents: "안녕하세요?")
+        cell.setup(tweet: tweet)
+        return cell
     }
 }
 

@@ -15,6 +15,10 @@ final class FeedViewController: UIViewController {
         let tableView = UITableView()
         tableView.dataSource = presenter
         tableView.delegate = presenter
+        tableView.register(
+            FeedTableViewCell.self,
+            forCellReuseIdentifier: FeedTableViewCell.identifier
+        )
         return tableView
     }()
     
