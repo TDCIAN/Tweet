@@ -11,6 +11,10 @@
 		1E2BC9F227EA8F4F00CC8EBA /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9F127EA8F4F00CC8EBA /* Icon.swift */; };
 		1E2BC9F427EA9BF400CC8EBA /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9F327EA9BF400CC8EBA /* TweetViewController.swift */; };
 		1E2BC9F627EA9BFF00CC8EBA /* TweetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9F527EA9BFF00CC8EBA /* TweetPresenter.swift */; };
+		1E2BC9F927EAA2A200CC8EBA /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9F827EAA2A200CC8EBA /* WriteViewController.swift */; };
+		1E2BC9FB27EAA2AB00CC8EBA /* WritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9FA27EAA2AB00CC8EBA /* WritePresenter.swift */; };
+		1E2BC9FE27EAB96800CC8EBA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9FD27EAB96800CC8EBA /* ProfileViewController.swift */; };
+		1E2BCA0027EAB97300CC8EBA /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9FF27EAB97300CC8EBA /* ProfilePresenter.swift */; };
 		1E339D8327E942A700DCED6D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E339D8227E942A700DCED6D /* SnapKit */; };
 		1E339D8727E9446D00DCED6D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E339D8627E9446D00DCED6D /* Tweet.swift */; };
 		1E339D8B27E9448700DCED6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E339D8A27E9448700DCED6D /* User.swift */; };
@@ -53,6 +57,10 @@
 		1E2BC9F127EA8F4F00CC8EBA /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		1E2BC9F327EA9BF400CC8EBA /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		1E2BC9F527EA9BFF00CC8EBA /* TweetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPresenter.swift; sourceTree = "<group>"; };
+		1E2BC9F827EAA2A200CC8EBA /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		1E2BC9FA27EAA2AB00CC8EBA /* WritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePresenter.swift; sourceTree = "<group>"; };
+		1E2BC9FD27EAB96800CC8EBA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1E2BC9FF27EAB97300CC8EBA /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
 		1E339D8527E9436500DCED6D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		1E339D8627E9446D00DCED6D /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		1E339D8A27E9448700DCED6D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -121,6 +129,24 @@
 			path = Tweet;
 			sourceTree = "<group>";
 		};
+		1E2BC9FC27EAA2AE00CC8EBA /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				1E2BC9F827EAA2A200CC8EBA /* WriteViewController.swift */,
+				1E2BC9FA27EAA2AB00CC8EBA /* WritePresenter.swift */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		1E2BCA0127EAB97700CC8EBA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1E2BC9FD27EAB96800CC8EBA /* ProfileViewController.swift */,
+				1E2BC9FF27EAB97300CC8EBA /* ProfilePresenter.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		1E339D8827E9447200DCED6D /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,10 +159,12 @@
 		1E339D8927E9447A00DCED6D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1E2BC9F127EA8F4F00CC8EBA /* Icon.swift */,
 				1E800F1627EA1029000ED681 /* TabBar */,
 				1E800F1327EA0E3E000ED681 /* Feed */,
 				1E2BC9F727EA9C0400CC8EBA /* Tweet */,
-				1E2BC9F127EA8F4F00CC8EBA /* Icon.swift */,
+				1E2BC9FC27EAA2AE00CC8EBA /* Write */,
+				1E2BCA0127EAB97700CC8EBA /* Profile */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -515,7 +543,11 @@
 				1E800F1527EA1024000ED681 /* TabBarItem.swift in Sources */,
 				1E2BC9F627EA9BFF00CC8EBA /* TweetPresenter.swift in Sources */,
 				1E339D8D27E9450300DCED6D /* UserDefaultsManager.swift in Sources */,
+				1E2BC9FE27EAB96800CC8EBA /* ProfileViewController.swift in Sources */,
+				1E2BC9F927EAA2A200CC8EBA /* WriteViewController.swift in Sources */,
+				1E2BC9FB27EAA2AB00CC8EBA /* WritePresenter.swift in Sources */,
 				1E9EA50E27E8C1D300273904 /* SceneDelegate.swift in Sources */,
+				1E2BCA0027EAB97300CC8EBA /* ProfilePresenter.swift in Sources */,
 				1E339D8B27E9448700DCED6D /* User.swift in Sources */,
 				1E339D8727E9446D00DCED6D /* Tweet.swift in Sources */,
 				1E2BC9F427EA9BF400CC8EBA /* TweetViewController.swift in Sources */,
