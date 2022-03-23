@@ -15,6 +15,15 @@
 		1E2BC9FB27EAA2AB00CC8EBA /* WritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9FA27EAA2AB00CC8EBA /* WritePresenter.swift */; };
 		1E2BC9FE27EAB96800CC8EBA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9FD27EAB96800CC8EBA /* ProfileViewController.swift */; };
 		1E2BCA0027EAB97300CC8EBA /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BC9FF27EAB97300CC8EBA /* ProfilePresenter.swift */; };
+		1E2BCA0427EAC06400CC8EBA /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 1E2BCA0327EAC06400CC8EBA /* Toast */; };
+		1E2BCA0727EAD62F00CC8EBA /* MockFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA0627EAD62F00CC8EBA /* MockFeedViewController.swift */; };
+		1E2BCA0927EAD65B00CC8EBA /* MockUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA0827EAD65B00CC8EBA /* MockUserDefaultsManager.swift */; };
+		1E2BCA0C27EAD69300CC8EBA /* TweetPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA0B27EAD69300CC8EBA /* TweetPresenterTests.swift */; };
+		1E2BCA0E27EAD84F00CC8EBA /* MockTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA0D27EAD84F00CC8EBA /* MockTweetViewController.swift */; };
+		1E2BCA1027EAD87F00CC8EBA /* WritePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA0F27EAD87F00CC8EBA /* WritePresenterTests.swift */; };
+		1E2BCA1227EADADA00CC8EBA /* MockWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA1127EADADA00CC8EBA /* MockWriteViewController.swift */; };
+		1E2BCA1427EADBD000CC8EBA /* ProfilePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA1327EADBD000CC8EBA /* ProfilePresenterTests.swift */; };
+		1E2BCA1627EAE00D00CC8EBA /* MockProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BCA1527EAE00D00CC8EBA /* MockProfileViewController.swift */; };
 		1E339D8327E942A700DCED6D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E339D8227E942A700DCED6D /* SnapKit */; };
 		1E339D8727E9446D00DCED6D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E339D8627E9446D00DCED6D /* Tweet.swift */; };
 		1E339D8B27E9448700DCED6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E339D8A27E9448700DCED6D /* User.swift */; };
@@ -27,7 +36,7 @@
 		1E9EA51027E8C1D300273904 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA50F27E8C1D300273904 /* TabBarViewController.swift */; };
 		1E9EA51527E8C1D400273904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9EA51427E8C1D400273904 /* Assets.xcassets */; };
 		1E9EA51827E8C1D400273904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9EA51627E8C1D400273904 /* LaunchScreen.storyboard */; };
-		1E9EA52327E8C1D500273904 /* TweetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA52227E8C1D500273904 /* TweetTests.swift */; };
+		1E9EA52327E8C1D500273904 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA52227E8C1D500273904 /* FeedPresenterTests.swift */; };
 		1E9EA52D27E8C1D500273904 /* TweetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA52C27E8C1D500273904 /* TweetUITests.swift */; };
 		1E9EA52F27E8C1D500273904 /* TweetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EA52E27E8C1D500273904 /* TweetUITestsLaunchTests.swift */; };
 		4F691F6D4C21600D77C38CAA /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857E3DB94CC9AF457CE2428A /* Pods_Tweet.framework */; };
@@ -61,6 +70,14 @@
 		1E2BC9FA27EAA2AB00CC8EBA /* WritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePresenter.swift; sourceTree = "<group>"; };
 		1E2BC9FD27EAB96800CC8EBA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1E2BC9FF27EAB97300CC8EBA /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		1E2BCA0627EAD62F00CC8EBA /* MockFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFeedViewController.swift; sourceTree = "<group>"; };
+		1E2BCA0827EAD65B00CC8EBA /* MockUserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManager.swift; sourceTree = "<group>"; };
+		1E2BCA0B27EAD69300CC8EBA /* TweetPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPresenterTests.swift; sourceTree = "<group>"; };
+		1E2BCA0D27EAD84F00CC8EBA /* MockTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTweetViewController.swift; sourceTree = "<group>"; };
+		1E2BCA0F27EAD87F00CC8EBA /* WritePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePresenterTests.swift; sourceTree = "<group>"; };
+		1E2BCA1127EADADA00CC8EBA /* MockWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWriteViewController.swift; sourceTree = "<group>"; };
+		1E2BCA1327EADBD000CC8EBA /* ProfilePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenterTests.swift; sourceTree = "<group>"; };
+		1E2BCA1527EAE00D00CC8EBA /* MockProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProfileViewController.swift; sourceTree = "<group>"; };
 		1E339D8527E9436500DCED6D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		1E339D8627E9446D00DCED6D /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		1E339D8A27E9448700DCED6D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -76,7 +93,7 @@
 		1E9EA51727E8C1D400273904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E9EA51927E8C1D400273904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E9EA51E27E8C1D500273904 /* TweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E9EA52227E8C1D500273904 /* TweetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTests.swift; sourceTree = "<group>"; };
+		1E9EA52227E8C1D500273904 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
 		1E9EA52827E8C1D500273904 /* TweetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9EA52C27E8C1D500273904 /* TweetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetUITests.swift; sourceTree = "<group>"; };
 		1E9EA52E27E8C1D500273904 /* TweetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -96,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2BCA0427EAC06400CC8EBA /* Toast in Frameworks */,
 				1E339D8327E942A700DCED6D /* SnapKit in Frameworks */,
 				4F691F6D4C21600D77C38CAA /* Pods_Tweet.framework in Frameworks */,
 			);
@@ -145,6 +163,29 @@
 				1E2BC9FF27EAB97300CC8EBA /* ProfilePresenter.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		1E2BCA0527EAD62200CC8EBA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E9EA52227E8C1D500273904 /* FeedPresenterTests.swift */,
+				1E2BCA0B27EAD69300CC8EBA /* TweetPresenterTests.swift */,
+				1E2BCA0F27EAD87F00CC8EBA /* WritePresenterTests.swift */,
+				1E2BCA1327EADBD000CC8EBA /* ProfilePresenterTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1E2BCA0A27EAD67F00CC8EBA /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1E2BCA0627EAD62F00CC8EBA /* MockFeedViewController.swift */,
+				1E2BCA0827EAD65B00CC8EBA /* MockUserDefaultsManager.swift */,
+				1E2BCA0D27EAD84F00CC8EBA /* MockTweetViewController.swift */,
+				1E2BCA1127EADADA00CC8EBA /* MockWriteViewController.swift */,
+				1E2BCA1527EAE00D00CC8EBA /* MockProfileViewController.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		1E339D8827E9447200DCED6D /* Models */ = {
@@ -237,7 +278,8 @@
 		1E9EA52127E8C1D500273904 /* TweetTests */ = {
 			isa = PBXGroup;
 			children = (
-				1E9EA52227E8C1D500273904 /* TweetTests.swift */,
+				1E2BCA0527EAD62200CC8EBA /* Tests */,
+				1E2BCA0A27EAD67F00CC8EBA /* Mocks */,
 			);
 			path = TweetTests;
 			sourceTree = "<group>";
@@ -295,6 +337,7 @@
 			name = Tweet;
 			packageProductDependencies = (
 				1E339D8227E942A700DCED6D /* SnapKit */,
+				1E2BCA0327EAC06400CC8EBA /* Toast */,
 			);
 			productName = Tweet;
 			productReference = 1E9EA50827E8C1D300273904 /* Tweet.app */;
@@ -373,6 +416,7 @@
 			mainGroup = 1E9EA4FF27E8C1D300273904;
 			packageReferences = (
 				1E339D8127E942A700DCED6D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1E2BCA0227EAC06400CC8EBA /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = 1E9EA50927E8C1D300273904 /* Products */;
 			projectDirPath = "";
@@ -561,7 +605,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E9EA52327E8C1D500273904 /* TweetTests.swift in Sources */,
+				1E2BCA0C27EAD69300CC8EBA /* TweetPresenterTests.swift in Sources */,
+				1E2BCA0E27EAD84F00CC8EBA /* MockTweetViewController.swift in Sources */,
+				1E2BCA1427EADBD000CC8EBA /* ProfilePresenterTests.swift in Sources */,
+				1E2BCA0727EAD62F00CC8EBA /* MockFeedViewController.swift in Sources */,
+				1E9EA52327E8C1D500273904 /* FeedPresenterTests.swift in Sources */,
+				1E2BCA1627EAE00D00CC8EBA /* MockProfileViewController.swift in Sources */,
+				1E2BCA1027EAD87F00CC8EBA /* WritePresenterTests.swift in Sources */,
+				1E2BCA0927EAD65B00CC8EBA /* MockUserDefaultsManager.swift in Sources */,
+				1E2BCA1227EADADA00CC8EBA /* MockWriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -899,6 +951,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1E2BCA0227EAC06400CC8EBA /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		1E339D8127E942A700DCED6D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -910,6 +970,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1E2BCA0327EAC06400CC8EBA /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E2BCA0227EAC06400CC8EBA /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
 		1E339D8227E942A700DCED6D /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1E339D8127E942A700DCED6D /* XCRemoteSwiftPackageReference "SnapKit" */;
