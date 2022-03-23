@@ -38,6 +38,11 @@ final class FeedViewController: UIViewController {
         super.viewDidLoad()
         presenter.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        presenter.viewWillAppear()
+    }
 }
 
 extension FeedViewController: FeedProtocol {
@@ -52,5 +57,14 @@ extension FeedViewController: FeedProtocol {
         }
         
         writeButton.paddingY = 100.0
+    }
+    
+    func reloadTableView() {
+        tableView.reloadData()
+    }
+    
+    func moveToTweetViewController(with tweet: Tweet) {
+        let tweetViewController = TweetViewController(tweet: tweet)
+        navigationController?.pushViewController(tweetViewController, animated: true)
     }
 }
